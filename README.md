@@ -1,5 +1,7 @@
 # Este es mi portafolio
 
-## Edicion en progreso
+## Hola, Soy Richard Da Silva
 
-- Agregaré nuevos proyectos, y más interacción
+- Espero sea de tu agrado mi portafolio.
+
+## https://richard-portfolio-ve.netlify.app/
