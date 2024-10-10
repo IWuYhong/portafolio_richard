@@ -1,3 +1,5 @@
-# portfolio_richard
+# Este es mi portafolio
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/IWuYhong/portfolio_richard)
+## Edicion en progreso
+
+- Agregaré nuevos proyectos, y más interacción
