@@ -11,10 +11,65 @@ const projects = [
     title: "Manejo de Búsqueda Binaria & Simple",
     description: "Ese repositorio presenta una implementación clara y eficiente de la búsqueda binaria y lineal en Python",
     link: "https://github.com/IWuYhong/busqueda_binaria"
+  },
+  {
+    title: "Green STF",
+    description: "Pagina web sencilla para mostrar la finalidad de la empresa.",
+    link: "https://greenstf.netlify.app/"
+  },
+  {
+    title: "Formulario de Proyecto de Free Code Camp",
+    description: "Formulario creado con lo aprendido de Free Code Camp, el estilo es unico.",
+    link: "https://projectfreecodecamp.netlify.app/"
+  },
+  {
+    title: "Trascendence",
+    description: "Pagina web sencilla para mostrar la finalidad de la empresa.",
+    link: "https://trascendence.netlify.app/"
+  },
+  {
+    title: "Trascendence V2",
+    description: "Pagina web siguiendo el ejemplo de la primera, pero con un diseño visual un poco mejor adaptado",
+    link: "https://trascendence.es/"
+  },
+  {
+    title: "Focaliza 2030",
+    description: "Pagina web creada con Wordpress, se usó Elementhor y codigo. Empresa española de Outsourcing comercial.",
+    link: "https://trascendence.es/"
+  },
+  {
+    title: "Nebula Gin",
+    description: "Pagina web creada con Wordpress, se usó Elementhor y codigo. Pagina principal para mostrar producto Nebula Gin.",
+    link: "https://nebulagin.com/"
+  },
+  {
+    title: "Tarotista de Sevilla",
+    description: "Pagina web creada con Wordpress, se usó Astra y codigo. Proyecto de un sitio web de Tarotista Dinamico.",
+    link: "https://tarotistasdesevilla.com/"
+  },
+  {
+    title: "Primetel Es",
+    description: "Pagina web creada con Wordpress, se usó Elemethor y codigo. Proyecto de un sitio web de Outsourcing comercial.",
+    link: "https://tarotistasdesevilla.com/"
+  },
+  {
+    title: "Gin Cat",
+    description: "Pagina web creada con Wordpress, se usó Elementhor y codigo. Pagina principal para mostrar producto Gin Cat.",
+    link: "https://gincat.cat/"
+  },
+  {
+    title: "Alissa TV",
+    description: "Pagina web creada con Wordpress, se usó Elementhor y codigo. Pagina principal para llevar a perfil de YouTube (Creado y Gestionado por mi)",
+    link: "https://alissatv.com/"
+  },
+  {
+    title: "Consumo Estrategico",
+    description: "Pagina web creada con Wordpress, se usó Elementhor y codigo. Pagina principal de Blog sobre acontecimientos e información de interes.",
+    link: "https://consumoestrategico.com/"
   }
 ]
 
-const skills = ["React", "TypeScript", "Node.js", "Javascript", "SQL", "CSS", "HTML", "Python", "Git", "Github", "Tailwind CSS"]
+const skills = ["React", "TypeScript", "Node.js", "Javascript", "SQL", "CSS", "HTML", "Python", "Git", "Github", "Tailwind CSS", "Wordpress", "Elementhor", "Illustrator", "PhotoShop", "Adobe Premiere", "Excel Avanzado", "Premiere Pro", "After effects", "Davinci Resolve"  ]
 
 function App() {
   return (
