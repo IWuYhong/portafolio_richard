@@ -50,7 +50,7 @@ const projects = [
   {
     title: "Primetel Es",
     description: "Pagina web creada con Wordpress, se usó Elemethor y codigo. Proyecto de un sitio web de Outsourcing comercial.",
-    link: "https://tarotistasdesevilla.com/"
+    link: "https://primetel.es/"
   },
   {
     title: "Gin Cat",
