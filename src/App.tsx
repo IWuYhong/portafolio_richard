@@ -84,9 +84,9 @@ function App() {
         <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
           <a href="https://richard-portfolio-ve.netlify.app/" className="text-2xl font-bold">RD</a>
           <div className="flex space-x-4">
-            <a href="#about" className="hover:text-gray-200">Sobre mí</a>
-            <a href="#projects" className="hover:text-gray-200 ">Proyecto</a>
-            <a href="#contact" className="hover:text-gray-200">Contacto</a>
+            <a href="#about" className="bg-white text-neutral-700 px-6 py-3 rounded-full hover:text-gray-200">Sobre mí</a>
+            <a href="#projects" className="bg-white text-neutral-700 px-6 py-3 rounded-full hover:text-gray-200 ">Proyecto</a>
+            <a href="#contact" className="bg-white text-neutral-700 px-6 py-3 rounded-full hover:text-gray-200">Contacto</a>
           </div>
           <div className="flex space-x-4">
               <a href="https://github.com/iwuyhong" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
