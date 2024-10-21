@@ -208,10 +208,10 @@ const cursos = [
     title: "SoloLearn - Javascript",
   },
   {
-    alt: "Introduction to Python",
-    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/introduction_python.webp",
+    alt: "HTML",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/html.webp",
     description: "Certificación de Conocimiento por Solo Learn",
-    title: "SoloLearn - Introduction to Python",
+    title: "SoloLearn - Introduction to HTML",
   }
 ]
 
