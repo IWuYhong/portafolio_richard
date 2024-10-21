@@ -87,13 +87,13 @@ function App() {
             <a href="#about" className="hover:text-gray-200">Sobre mí</a>
             <a href="#projects" className="hover:text-gray-200 ">Proyecto</a>
             <a href="#contact" className="hover:text-gray-200">Contacto</a>
-            <a href="https://github.com/iwuyhong" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+            <a href="https://github.com/iwuyhong" target="_blank" rel="noopener noreferrer" className="hover:text-black-400">
                 <Github className="w-6 h-6" />
               </a>
-              <a href="https://www.linkedin.com/in/richard-da-silva-0249881ba/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+              <a href="https://www.linkedin.com/in/richard-da-silva-0249881ba/" target="_blank" rel="noopener noreferrer" className="hover:text-black-400">
                 <Linkedin className="w-6 h-6" />
               </a>
-              <a href="mailto:daniel34dasilva@gmail.com" className="hover:text-gray-400">
+              <a href="mailto:daniel34dasilva@gmail.com" className="hover:text-black-400">
                 <Mail className="w-6 h-6" />
               </a>
           </div>
