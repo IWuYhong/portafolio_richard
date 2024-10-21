@@ -82,6 +82,13 @@ const gallery = [
     description: "Soldadura de IC Power - No encendia.",
     title: "A10 IC Power",
   },
+  {
+    alt: "reconstrucción_flex",
+    image: "images/img_2.jpg",
+    fecha: "21/02/2023",
+    description: "Reconstrucción de Flex Main.",
+    title: "Flex Tablet Reconstrucción",
+  },
 ];
 
 const skills = ["React", "Docker", "Vue", "Astro", "TypeScript", "Node.js", "Javascript", "SQL", "CSS", "HTML", "Python", "Git", "Github", "Tailwind CSS", "Wordpress", "Figma", "Elementor", "Illustrator", "PhotoShop", "Adobe Premiere", "Excel Avanzado", "Premiere Pro", "After effects", "Davinci Resolve"]
@@ -185,7 +192,7 @@ function App() {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-4">
             {gallery.map((gallery, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
+              <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden ">
                 <div className="p-6 text-center">
                   <h3 className="text-xl text-[#0c2c40] font-bold mb-2">{gallery.title}</h3>
                   <p className="text-gray-600 mb-4">{gallery.description}</p>
