@@ -97,10 +97,10 @@ const gallery = [
     title: "Flex Tablet Reconstrucción",
   },
   {
-    alt: "Reflow IC VBat",
+    alt: "Reflow IC VBat Redmi 9T",
     image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_4.jpg",
     fecha: "21/02/2023",
-    description: "Reflow Power",
+    description: "Reflow Power Redmi 9T, No reconocia entrada USB. Procedí hacerle reflow para renovar el estaño debajo de los pads.",
     title: "Reflow IC de VBat.",
   }
 ];
