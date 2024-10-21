@@ -77,14 +77,14 @@ const projects = [
 const gallery = [
   {
     alt: "soldadura_pbc",
-    image: "images/img_1.jpg",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_1.jpg",
     fecha: "26/02/2023",
     description: "Soldadura de IC Power - No encendia.",
     title: "A10 IC Power",
   },
   {
     alt: "reconstrucción_flex",
-    image: "images/img_2.jpg",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_2.jpg",
     fecha: "21/02/2023",
     description: "Reconstrucción de Flex Main.",
     title: "Flex Tablet Reconstrucción",
