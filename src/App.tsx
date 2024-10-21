@@ -195,7 +195,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 ">
       {/* Header */}
-      <header className="bg-[#127ea8]	 text-white fixed w-full z-1">
+      <header className="bg-[#127ea8]	 text-white">
         <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
           <a href="https://richard-portfolio-ve.netlify.app/" className="text-2xl font-bold">RD</a>
           <div className="flex space-x-4">
