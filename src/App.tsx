@@ -178,13 +178,13 @@ function App() {
               <p>&copy; 2024 Richard Da Silva. Todos los derechos reservados.</p>
             </div>
             <div className="flex space-x-4">
-              <a href="https://github.com/iwuyhong" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+              <a href="https://github.com/iwuyhong" target="_blank" rel="noopener noreferrer" className="hover:text-[#1b546f]">
                 <Github className="w-6 h-6" />
               </a>
-              <a href="https://www.linkedin.com/in/richard-da-silva-0249881ba/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+              <a href="https://www.linkedin.com/in/richard-da-silva-0249881ba/" target="_blank" rel="noopener noreferrer" className="hover:text-[#1b546f]">
                 <Linkedin className="w-6 h-6" />
               </a>
-              <a href="mailto:daniel34dasilva@gmail.com" className="hover:text-gray-400">
+              <a href="mailto:daniel34dasilva@gmail.com" className="hover:text-[#1b546f]">
                 <Mail className="w-6 h-6" />
               </a>
             </div>
