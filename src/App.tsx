@@ -308,7 +308,7 @@ function App() {
                 <img
                   src={gallery.image}
                   alt={gallery.alt}
-                  className="bg-cover bg-no-repeat bg-center mx-auto h-full cursor-pointer hover:scale-105 transition-transform duration-300 hover:ease-in-out"
+                  className="bg-contain h-[300px] w-full object-cover mx-auto  cursor-pointer hover:scale-105 transition-transform duration-300 hover:ease-in-out"
                 />
               </div>
             ))}
