@@ -89,6 +89,20 @@ const gallery = [
     description: "Reconstrucción de Flex Main.",
     title: "Flex Tablet Reconstrucción",
   },
+  {
+    alt: "Laboratorio",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_3.jpg",
+    fecha: "21/02/2023",
+    description: "Reconstrucción de Flex Main.",
+    title: "Flex Tablet Reconstrucción",
+  },
+  {
+    alt: "Reflow IC VBat",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_4.jpg",
+    fecha: "21/02/2023",
+    description: "Reflow Power",
+    title: "Reflow IC de VBat.",
+  }
 ];
 
 const skills = ["React", "Docker", "Vue", "Astro", "TypeScript", "Node.js", "Javascript", "SQL", "CSS", "HTML", "Python", "Git", "Github", "Tailwind CSS", "Wordpress", "Figma", "Elementor", "Illustrator", "PhotoShop", "Adobe Premiere", "Excel Avanzado", "Premiere Pro", "After effects", "Davinci Resolve"]
@@ -187,22 +201,22 @@ function App() {
         </div>
       </section>
       {/* Galeria  */}
-      <section id="gallery" className="bg-[#2ebae2]">
-      <h1 className="text-4xl text-[#fff] font-bold mb-8 text-center py-2">Galería</h1>
+      <section id="gallery" className="bg-[#2ebae2] py-20">
+        <h1 className="text-4xl text-[#fff] font-bold mb-8 text-center py-2">Galería</h1>
         <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {gallery.map((gallery, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden ">
-                <div className="p-6 text-center">
+              <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
+                <div className="p-6 text-center ">
                   <h3 className="text-xl text-[#0c2c40] font-bold mb-2">{gallery.title}</h3>
                   <p className="text-gray-600 mb-4">{gallery.description}</p>
                   <p className="text-sm text-gray-500">Fecha: {gallery.fecha}</p>
-                  
+
                 </div>
                 <img
                   src={gallery.image}
                   alt={gallery.alt}
-                  className="bg-cover bg-no-repeat bg-center h-200 w-full cursor-pointer hover:scale-105 transition-transform duration-300 hover:ease-in-out"
+                  className="bg-cover bg-no-repeat bg-center mx-auto h-full cursor-pointer hover:scale-105 transition-transform duration-300 hover:ease-in-out"
                 />
               </div>
             ))}
