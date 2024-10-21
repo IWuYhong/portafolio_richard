@@ -88,6 +88,17 @@ function App() {
             <a href="#projects" className="hover:text-gray-200 ">Proyecto</a>
             <a href="#contact" className="hover:text-gray-200">Contacto</a>
           </div>
+          <div className="flex space-x-4">
+              <a href="https://github.com/iwuyhong" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+                <Github className="w-6 h-6" />
+              </a>
+              <a href="https://www.linkedin.com/in/richard-da-silva-0249881ba/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+                <Linkedin className="w-6 h-6" />
+              </a>
+              <a href="mailto:daniel34dasilva@gmail.com" className="hover:text-gray-400">
+                <Mail className="w-6 h-6" />
+              </a>
+            </div>
         </nav>
       </header>
 
@@ -131,7 +142,7 @@ function App() {
               </p>
               <div className="flex flex-wrap gap-2">
                 {skills.map((skill, index) => (
-                  <span key={index} className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">{skill}</span>
+                  <span key={index} className="bg-gray-400 text-white px-3 py-1 rounded-full text-sm">{skill}</span>
                 ))}
               </div>
 
