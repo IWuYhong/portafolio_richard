@@ -292,7 +292,7 @@ function App() {
           </div>
         </div>
       </section>
-      {/* Gellery  */}
+      {/* Gallery  */}
       <section id="gallery" className="bg-[#2ebae2] py-20">
         <h1 className="text-4xl text-[#fff] font-bold mb-8 text-center py-2">Galería</h1>
         <div className="container mx-auto px-6">
