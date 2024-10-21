@@ -66,6 +66,11 @@ const projects = [
     title: "Consumo Estrategico",
     description: "Pagina web creada con Wordpress, se usó Elementor y codigo. Pagina principal de Blog sobre acontecimientos e información de interes.",
     link: "https://consumoestrategico.com/"
+  },
+  {
+    title: "Bot de Exportación Personalizado en Python",
+    description: "Bot de Exportación Personalizado en Python: Automatiza y Organiza Tus Datos.",
+    link: "https://github.com/IWuYhong/filtrador_python"
   }
 ]
 
@@ -79,16 +84,10 @@ function App() {
         <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
           <a href="https://richard-portfolio-ve.netlify.app/" className="text-2xl font-bold">RD</a>
           <div className="flex space-x-4">
-              <a href="https://github.com/iwuyhong" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400">
-                <Github className="w-6 h-6" />
-              </a>
-              <a href="https://www.linkedin.com/in/richard-da-silva-0249881ba/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400">
-                <Linkedin className="w-6 h-6" />
-              </a>
-              <a href="mailto:daniel34dasilva@gmail.com" className="hover:text-indigo-400">
-                <Mail className="w-6 h-6" />
-              </a>
-            </div>
+            <a href="#about" className="hover:text-gray-200">Sobre mí</a>
+            <a href="#projects" className="hover:text-gray-200 ">Proyecto</a>
+            <a href="#contact" className="hover:text-gray-200">Contacto</a>
+          </div>
         </nav>
       </header>
 
@@ -97,7 +96,7 @@ function App() {
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-5xl font-bold mb-4">Richard Da Silva</h1>
           <p className="text-xl mb-8">Full Stack Developer | Python Specialist | Problem Solver</p>
-          <a href="mailto:daniel34dasilva@gmail.com" className="bg-white text-neutral-700 px-6 py-3 rounded-full font-bold hover:bg-indigo-100 transition duration-300">Mi correo electronico</a>
+          <a href="mailto:daniel34dasilva@gmail.com" className="bg-white text-neutral-700 px-6 py-3 rounded-full font-bold hover:bg-gray-100 transition duration-300">Mi correo electronico</a>
         </div>
 
       </section>
@@ -132,7 +131,7 @@ function App() {
               </p>
               <div className="flex flex-wrap gap-2">
                 {skills.map((skill, index) => (
-                  <span key={index} className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">{skill}</span>
+                  <span key={index} className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">{skill}</span>
                 ))}
               </div>
 
@@ -152,7 +151,7 @@ function App() {
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                   <p className="text-gray-600 mb-4">{project.description}</p>
-                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:text-indigo-800 flex items-center">
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 flex items-center">
                     Ver Proyecto <ExternalLink className="ml-1 w-4 h-4" />
                   </a>
                 </div>
@@ -170,13 +169,13 @@ function App() {
               <p>&copy; 2024 Richard Da Silva. Todos los derechos reservados.</p>
             </div>
             <div className="flex space-x-4">
-              <a href="https://github.com/iwuyhong" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400">
+              <a href="https://github.com/iwuyhong" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
                 <Github className="w-6 h-6" />
               </a>
-              <a href="https://www.linkedin.com/in/richard-da-silva-0249881ba/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400">
+              <a href="https://www.linkedin.com/in/richard-da-silva-0249881ba/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
                 <Linkedin className="w-6 h-6" />
               </a>
-              <a href="mailto:daniel34dasilva@gmail.com" className="hover:text-indigo-400">
+              <a href="mailto:daniel34dasilva@gmail.com" className="hover:text-gray-400">
                 <Mail className="w-6 h-6" />
               </a>
             </div>
