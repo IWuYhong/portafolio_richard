@@ -1,5 +1,5 @@
-import React from 'react'
-import { Github, Linkedin, Mail, ExternalLink, ChevronDown } from 'lucide-react'
+import React from 'react';
+import { Github, Linkedin, Mail, ExternalLink} from 'lucide-react';
 
 const projects = [
   {
@@ -317,7 +317,7 @@ function App() {
       </section>
 
       {/* Cursos  */}
-      <section id="cursos" className="bg-[#2ebae2] py-20">
+      <section id="cursos" className="bg-[#28a2c4] py-20">
         <h1 className="text-4xl text-[#fff] font-bold mb-8 text-center py-2">Cursos</h1>
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -328,11 +328,13 @@ function App() {
                   <p className="text-gray-600 mb-4">{cursos.description}</p>
 
                 </div>
+                <a href={cursos.image} target="_blank" rel="noopener noreferrer">
                 <img
                   src={cursos.image}
                   alt={cursos.alt}
-                  className="bg-cover bg-no-repeat bg-center mx-auto h-full"
+                  className="bg-contain w-full object-cover mx-auto"
                 />
+                </a>
               </div>
             ))}
           </div>
