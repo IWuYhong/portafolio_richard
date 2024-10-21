@@ -194,6 +194,24 @@ const cursos = [
     image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/python_developer.webp",
     description: "Certificación de Conocimiento por Solo Learn",
     title: "SoloLearn - Python",
+  },
+  {
+    alt: "Introduction to Python",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/introduction_python.webp",
+    description: "Certificación de Conocimiento por Solo Learn",
+    title: "SoloLearn - Introduction to Python",
+  },
+  {
+    alt: "Javascript",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/javascript.webp",
+    description: "Certificación de Conocimiento por Solo Learn",
+    title: "SoloLearn - Javascript",
+  },
+  {
+    alt: "Introduction to Python",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/introduction_python.webp",
+    description: "Certificación de Conocimiento por Solo Learn",
+    title: "SoloLearn - Introduction to Python",
   }
 ]
 
