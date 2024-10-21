@@ -78,30 +78,114 @@ const gallery = [
   {
     alt: "soldadura_pbc",
     image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_1.jpg",
-    fecha: "26/02/2023",
+    fecha: "26/02/2022",
     description: "Soldadura de IC Power - No encendia.",
     title: "A10 IC Power",
   },
   {
     alt: "reconstrucción_flex",
     image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_2.jpg",
-    fecha: "21/02/2023",
+    fecha: "21/02/2022",
     description: "Reconstrucción de Flex Main.",
     title: "Flex Tablet Reconstrucción",
   },
   {
     alt: "Laboratorio",
     image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_3.jpg",
-    fecha: "21/02/2023",
-    description: "Reconstrucción de Flex Main.",
-    title: "Flex Tablet Reconstrucción",
+    fecha: "21/02/2022",
+    description: "Mi Laboratorio de Electronica.",
+    title: "Mi Laboratorio.",
   },
   {
     alt: "Reflow IC VBat Redmi 9T",
     image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_4.jpg",
-    fecha: "21/02/2023",
+    fecha: "21/02/2022",
     description: "Reflow Power Redmi 9T, No reconocia entrada USB. Procedí hacerle reflow para renovar el estaño debajo de los pads.",
     title: "Reflow IC de VBat.",
+  },
+  {
+    alt: "Reflow Memoria EMMC IPad",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_5.jpg",
+    fecha: "21/05/2022",
+    description: "Reflow EMMC IPad, No iniciaba el software. Reflow Exitoso.",
+    title: "Reflow EMMC.",
+  },
+  {
+    alt: "Mantenimiento PC",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_6.jpg",
+    fecha: "21/02/2022",
+    description: "Mantenimiento de Computadora Desktop",
+    title: "Mantenimiento.",
+  },
+  {
+    alt: "Reemplazo de USB Tipo C",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_7.jpg",
+    fecha: "28/03/2024",
+    description: "Reemplazo de USB Tipo C",
+    title: "Reemplazo de USB Tipo C",
+  },
+  {
+    alt: "Soldando cable esmaltado de Auriculares",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_8.jpg",
+    fecha: "14/06/2024",
+    description: "Reparación de Auriculares sencillos.",
+    title: "Soldadura de Cables de Auricular sencillo",
+  },
+  {
+    alt: "Samsung A71",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_9.jpg",
+    fecha: "1/12/2023",
+    description: "Reballing IC",
+    title: "Samsung A71 - IC Camara",
+  },
+  {
+    alt: "Samsung A21s",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_10.jpg",
+    fecha: "12/8/2023",
+    description: "Reemplazo de USB Tipo C",
+    title: "Reemplazo de USB Tipo C",
+  },
+  {
+    alt: "Samsung A10s Ic RF",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_11.jpg",
+    fecha: "15/5/2023",
+    description: "Reflow Ic RF",
+    title: "Reflow Ic RF",
+  },
+  {
+    alt: "Reconstrucción de pistas PCB Consola Aire Acondicionado.",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_12.jpg",
+    fecha: "23/5/2023",
+    description: "Reconstrucción de pistas PCB Consola Aire Acondicionado.",
+    title: "Reconstrucción de pistas PCB Consola Aire Acondicionado.",
+  },
+  {
+    alt: "Reemplazo de Modulo de Carga Infinix Hot 20i",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_13.jpg",
+    fecha: "23/7/2024",
+    description: "Reemplazo de Modulo de Carga Infinix Hot 20i",
+    title: "Reemplazo de Modulo de Carga Infinix Hot 20i",
+  },
+  {
+    alt: "Reemplazo de Modulo de Carga Generico",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_14.jpg",
+    fecha: "28/7/2024",
+    description: "Reemplazo de Modulo de Carga Generico",
+    title: "Reemplazo de Modulo de Carga Generico",
+  },
+  {
+    alt: "Swap A50",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_15.jpg",
+    fecha: "28/7/2024",
+    description: "Swap A50 - Recuperando Movil deteriorado.",
+    title: "Swap A50 Ic Carga & PMIC",
+  },
+  {
+    alt: "Pizza",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_16.jpg",
+    fecha: "28/7/2024",
+    description: "Y si.. al igual se cocinar una deliciosa Pizza.",
+    title: "Hobby - Pizza",
   }
 ];
 
@@ -111,7 +195,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 ">
       {/* Header */}
-      <header className="bg-[#127ea8]	 text-white fixed w-full">
+      <header className="bg-[#127ea8]	 text-white fixed w-full z-1">
         <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
           <a href="https://richard-portfolio-ve.netlify.app/" className="text-2xl font-bold">RD</a>
           <div className="flex space-x-4">
