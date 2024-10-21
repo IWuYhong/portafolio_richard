@@ -211,7 +211,7 @@ const cursos = [
     alt: "HTML",
     image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/html.webp",
     description: "Certificación de Conocimiento por Solo Learn",
-    title: "SoloLearn - Introduction to HTML",
+    title: "SoloLearn - HTML",
   }
 ]
 
