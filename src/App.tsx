@@ -74,6 +74,16 @@ const projects = [
   }
 ]
 
+const gallery = [
+  {
+    alt: "soldadura_pbc",
+    image: "images/img_1.jpg",
+    fecha: "26/02/2023",
+    description: "Soldadura de IC Power - No encendia.",
+    title: "A10 IC Power",
+  },
+];
+
 const skills = ["React", "Docker", "Vue", "Astro", "TypeScript", "Node.js", "Javascript", "SQL", "CSS", "HTML", "Python", "Git", "Github", "Tailwind CSS", "Wordpress", "Figma", "Elementor", "Illustrator", "PhotoShop", "Adobe Premiere", "Excel Avanzado", "Premiere Pro", "After effects", "Davinci Resolve"]
 
 function App() {
@@ -88,14 +98,14 @@ function App() {
             <a href="#projects" className="hover:text-[#1b546f]">Proyecto</a>
             <a href="#contact" className="hover:text-gray-200">Contacto</a>
             <a href="https://github.com/iwuyhong" target="_blank" rel="noopener noreferrer" className="hover:text-[#1b546f]">
-                <Github className="w-6 h-6" />
-              </a>
-              <a href="https://www.linkedin.com/in/richard-da-silva-0249881ba/" target="_blank" rel="noopener noreferrer" className="hover:text-[#1b546f]">
-                <Linkedin className="w-6 h-6" />
-              </a>
-              <a href="mailto:daniel34dasilva@gmail.com" className="hover:text-[#1b546f]">
-                <Mail className="w-6 h-6" />
-              </a>
+              <Github className="w-6 h-6" />
+            </a>
+            <a href="https://www.linkedin.com/in/richard-da-silva-0249881ba/" target="_blank" rel="noopener noreferrer" className="hover:text-[#1b546f]">
+              <Linkedin className="w-6 h-6" />
+            </a>
+            <a href="mailto:daniel34dasilva@gmail.com" className="hover:text-[#1b546f]">
+              <Mail className="w-6 h-6" />
+            </a>
           </div>
         </nav>
       </header>
@@ -164,6 +174,29 @@ function App() {
                     Ver Proyecto <ExternalLink className="ml-1 w-4 h-4" />
                   </a>
                 </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      {/* Galeria  */}
+      <section id="gallery" className="bg-[#2ebae2]">
+      <h1 className="text-4xl text-[#fff] font-bold mb-8 text-center py-2">Galería</h1>
+        <div className="container mx-auto px-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-4">
+            {gallery.map((gallery, index) => (
+              <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
+                <div className="p-6 text-center">
+                  <h3 className="text-xl text-[#0c2c40] font-bold mb-2">{gallery.title}</h3>
+                  <p className="text-gray-600 mb-4">{gallery.description}</p>
+                  <p className="text-sm text-gray-500">Fecha: {gallery.fecha}</p>
+                  
+                </div>
+                <img
+                  src={gallery.image}
+                  alt={gallery.alt}
+                  className="bg-cover bg-no-repeat bg-center h-200 w-full cursor-pointer hover:scale-105 transition-transform duration-300 hover:ease-in-out"
+                />
               </div>
             ))}
           </div>
