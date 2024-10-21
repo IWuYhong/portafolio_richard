@@ -105,7 +105,7 @@ function App() {
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-5xl font-bold mb-4">Richard Da Silva</h1>
           <p className="text-xl mb-8">Full Stack Developer | Python Specialist | Problem Solver</p>
-          <a href="mailto:daniel34dasilva@gmail.com" className="bg-white text-neutral-700 px-6 py-3 rounded-full font-bold hover:bg-gray-100 transition duration-300">Mi correo electronico</a>
+          <a href="mailto:daniel34dasilva@gmail.com" className="button-bezel bg-gradient-to-r from-cyan-500 to-blue-500 w-full text-center py-2 px-6 rounded-lg button-shadow">Mi correo electronico</a>
         </div>
 
       </section>
