@@ -69,7 +69,7 @@ const projects = [
   }
 ]
 
-const skills = ["React", "TypeScript", "Node.js", "Javascript", "SQL", "CSS", "HTML", "Python", "Git", "Github", "Tailwind CSS", "Wordpress", "Figma", "Elementor", "Illustrator", "PhotoShop", "Adobe Premiere", "Excel Avanzado", "Premiere Pro", "After effects", "Davinci Resolve"]
+const skills = ["React", "Docker", "Vue", "Astro", "TypeScript", "Node.js", "Javascript", "SQL", "CSS", "HTML", "Python", "Git", "Github", "Tailwind CSS", "Wordpress", "Figma", "Elementor", "Illustrator", "PhotoShop", "Adobe Premiere", "Excel Avanzado", "Premiere Pro", "After effects", "Davinci Resolve"]
 
 function App() {
   return (
@@ -77,12 +77,18 @@ function App() {
       {/* Header */}
       <header className="bg-neutral-400	 text-white">
         <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-          <a href="#" className="text-2xl font-bold">RD</a>
+          <a href="https://richard-portfolio-ve.netlify.app/" className="text-2xl font-bold">RD</a>
           <div className="flex space-x-4">
-            <a href="#about" className="hover:text-indigo-200">Sobre mí</a>
-            <a href="#projects" className="hover:text-indigo-200 ">Proyecto</a>
-            <a href="#contact" className="hover:text-indigo-200">Contacto</a>
-          </div>
+              <a href="https://github.com/iwuyhong" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400">
+                <Github className="w-6 h-6" />
+              </a>
+              <a href="https://www.linkedin.com/in/richard-da-silva-0249881ba/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400">
+                <Linkedin className="w-6 h-6" />
+              </a>
+              <a href="mailto:daniel34dasilva@gmail.com" className="hover:text-indigo-400">
+                <Mail className="w-6 h-6" />
+              </a>
+            </div>
         </nav>
       </header>
 
@@ -91,7 +97,7 @@ function App() {
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-5xl font-bold mb-4">Richard Da Silva</h1>
           <p className="text-xl mb-8">Full Stack Developer | Python Specialist | Problem Solver</p>
-          <a href="mailto:daniel34dasilva@gmail.com" className="bg-white text-neutral-700 px-6 py-3 rounded-full font-bold hover:bg-indigo-100 transition duration-300">Contactame</a>
+          <a href="mailto:daniel34dasilva@gmail.com" className="bg-white text-neutral-700 px-6 py-3 rounded-full font-bold hover:bg-indigo-100 transition duration-300">Mi correo electronico</a>
         </div>
 
       </section>
@@ -106,10 +112,10 @@ function App() {
             </div>
             <div className="md:w-1/2">
               <p className="text-lg mb-4">
-                ¡Hola! Mi nombre es Richard Da Silva, Programador Jr.
+                ¡Hola! Mi nombre es Richard Da Silva, Programador.
               </p>
               <p className="text-lg mb-6">
-                Desarrollador web proactivo con una sólida base en tecnologías web modernas. Me apasiona encontrar soluciones creativas a desafíos complejos utilizando herramientas como React, TypeScript, Node.js y SQL. Soy un aprendiz constante, siempre dispuesto a explorar nuevas tecnologías y mejorar mis habilidades.
+                Soy un Desarrollador web FullStack con amplio conocimiento en tecnologías web modernas. Me apasiona encontrar soluciones creativas a desafíos complejo. Siempre estoy en constante crecimiento personal ya sea aprendiendo sobre algun dato e interes nuevo, siempre estoy dispuesto a explorar nuevas tecnologías y mejorar mis habilidades.
               </p>
               <p className="text-lg mb-6">
                 Cuento con experiencia en Excel, trabaje en Mostrar, Filtrar y Desarrollar archivos para ver sus resultados como Tablas dinamicas, creando informes didacticos.
@@ -117,6 +123,9 @@ function App() {
               </p>
               <p className="text-lg mb-6">
                 Poseo experiencia demostrale en el uso de programas de diseño graficos, tales como Photoshop, Illustrator, Premiere Pro, After Effects y Davinci Resolve.
+              </p>
+              <p className="text-lg mb-6">
+                Tengo conocimiento en Electronica ya sea comprendiendo un Esquematico o hasta en reparación pura, mi hobby favorito es Reparar dispositivos electronicos, ya sea un Movil o una Computadora o indiferentemente lo que sea. Cuanto con un pequeño laboratorio de reperación. Al comprender como esta funciona tengo el conocimiento suficiente para resolver problemas en relación a Software de Windows, Linux y hasta un Android o IOS e incluso Hardware.
               </p>
               <p className="text-lg mb-6">
                 Lenguaje de programacion Preferido: "Python" por excelencia, divertido y muy dinamico.
