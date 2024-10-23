@@ -247,7 +247,7 @@ function App() {
           <h1 className="text-5xl font-bold mb-4">Richard Da Silva</h1>
           <p className="text-xl mb-8">Full Stack Developer | Python Specialist | Problem Solver</p>
           <a href="mailto:daniel34dasilva@gmail.com" className="button-bezel bg-[#129dc8] w-full text-center py-2 px-6 rounded-lg hover:bg-[#127ea8] transition duration-300">Mi correo electronico</a>
-          <a href="https://github.com/IWuYhong/portafolio_richard/blob/main/images/Richard%20Da%20Silva%20_%20LinkedIn.pdf" className="button-bezel bg-[#129dc8] w-full text-center px-4 px-6 rounded-lg hover:bg-[#127ea8] transition duration-300">Mi CV</a>
+          <a href="https://github.com/IWuYhong/portafolio_richard/blob/main/images/Richard%20Da%20Silva%20_%20LinkedIn.pdf" className="button-bezel bg-[#129dc8] w-full text-center py-2 px-6 ml-2 rounded-lg hover:bg-[#127ea8] transition duration-300">Mi CV</a>
         </div>
 
       </section>
