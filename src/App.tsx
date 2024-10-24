@@ -220,7 +220,7 @@ const cursos = [
   }
 ]
 
-const skills = ["React", "Docker", "Vue", "Astro", "TypeScript", "Node.js", "Javascript", "SQL", "CSS", "HTML", "Python", "Git", "Github", "Tailwind CSS", "Wordpress", "Figma", "Elementor", "Illustrator", "PhotoShop", "Adobe Premiere", "Excel Avanzado", "Premiere Pro", "After effects", "Davinci Resolve"]
+const skills = ["React", "Docker", "Vue", "Astro", "TypeScript", "Flask", "Node.js", "Javascript", "SQL", "CSS", "HTML", "Python", "Git", "Github", "Tailwind CSS", "Wordpress", "Figma", "Elementor", "Illustrator", "PhotoShop", "Adobe Premiere", "Excel Avanzado", "Premiere Pro", "After effects", "Davinci Resolve"]
 
 function App() {
   return (
