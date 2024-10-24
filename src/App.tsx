@@ -232,7 +232,7 @@ function App() {
           <div className="flex space-x-4">
             <a href="#about" className="hover:text-[#1b546f]">Sobre mí</a>
             <a href="#projects" className="hover:text-[#1b546f]">Proyecto</a>
-            <a href="#contact" className="hover:text-gray-200">Contacto</a>
+            <a href="https://api-form-production-9372.up.railway.app/" className="hover:text-gray-200">Contacto</a>
             <a href="https://github.com/iwuyhong" target="_blank" rel="noopener noreferrer" className="hover:text-[#1b546f]">
               <Github className="w-6 h-6" />
             </a>
@@ -251,7 +251,7 @@ function App() {
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-5xl font-bold mb-4">Richard Da Silva</h1>
           <p className="text-xl mb-8">Full Stack Developer | Python Specialist | Problem Solver</p>
-          <a href="https://api-form-production-9372.up.railway.app/" className="button-bezel bg-[#129dc8] w-full text-center py-2 px-6 rounded-lg hover:bg-[#127ea8] transition duration-300">Mi correo electronico</a>
+          <a href="mailto:daniel34dasilva@gmail.com" className="button-bezel bg-[#129dc8] w-full text-center py-2 px-6 rounded-lg hover:bg-[#127ea8] transition duration-300">Mi correo electronico</a>
           <a href="https://github.com/IWuYhong/portafolio_richard/blob/main/images/Richard%20Da%20Silva%20_%20LinkedIn.pdf" className="button-bezel bg-[#129dc8] w-full text-center py-2 px-6 ml-2 rounded-lg hover:bg-[#127ea8] transition duration-300">Mi CV</a>
         </div>
 
