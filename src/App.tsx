@@ -71,6 +71,11 @@ const projects = [
     title: "Bot de Exportación Personalizado en Python",
     description: "Bot de Exportación Personalizado en Python: Automatiza y Organiza Tus Datos.",
     link: "https://github.com/IWuYhong/filtrador_python"
+  },
+  {
+    title: "Formulario Elaborado en Flask, conectando un Api",
+    description: "Formulario implementación de API Gratuita (100 Usos Diarios), es el que uso en mi portfolio.",
+    link: "https://api-form-production-9372.up.railway.app/"
   }
 ]
 
@@ -246,7 +251,7 @@ function App() {
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-5xl font-bold mb-4">Richard Da Silva</h1>
           <p className="text-xl mb-8">Full Stack Developer | Python Specialist | Problem Solver</p>
-          <a href="mailto:daniel34dasilva@gmail.com" className="button-bezel bg-[#129dc8] w-full text-center py-2 px-6 rounded-lg hover:bg-[#127ea8] transition duration-300">Mi correo electronico</a>
+          <a href="https://api-form-production-9372.up.railway.app/" className="button-bezel bg-[#129dc8] w-full text-center py-2 px-6 rounded-lg hover:bg-[#127ea8] transition duration-300">Mi correo electronico</a>
           <a href="https://github.com/IWuYhong/portafolio_richard/blob/main/images/Richard%20Da%20Silva%20_%20LinkedIn.pdf" className="button-bezel bg-[#129dc8] w-full text-center py-2 px-6 ml-2 rounded-lg hover:bg-[#127ea8] transition duration-300">Mi CV</a>
         </div>
 
