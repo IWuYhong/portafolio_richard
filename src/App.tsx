@@ -184,14 +184,14 @@ const gallery = [
     fecha: "28/7/2024",
     description: "Swap A50 - Recuperando Movil deteriorado.",
     title: "Swap A50 Ic Carga & PMIC",
-  },
-  {
+  }
+  /*{
     alt: "Pizza",
     image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/img_16.jpg",
     fecha: "28/7/2024",
     description: "Y si.. al igual se cocinar una deliciosa Pizza.",
     title: "Hobby - Pizza",
-  }
+  }*/
 ];
 const cursos = [
   {
