@@ -195,29 +195,37 @@ const gallery = [
 ];
 const cursos = [
   {
-    alt: "Python Course - Full",
+    alt: "SoloLearn Certificado Python Course - Full",
     image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/python_developer.webp",
     description: "Certificación de Conocimiento por Solo Learn",
     title: "SoloLearn - Python",
   },
   {
-    alt: "Introduction to Python",
+    alt: "SoloLearn Certificado Introduction to Python",
     image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/introduction_python.webp",
     description: "Certificación de Conocimiento por Solo Learn",
     title: "SoloLearn - Introduction to Python",
   },
   {
-    alt: "Javascript",
+    alt: "SoloLearn Certificado Javascript",
     image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/javascript.webp",
     description: "Certificación de Conocimiento por Solo Learn",
     title: "SoloLearn - Javascript",
   },
   {
-    alt: "HTML",
+    alt: "SoloLearn Certificado HTML",
     image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/html.webp",
     description: "Certificación de Conocimiento por Solo Learn",
     title: "SoloLearn - HTML",
+  },
+  {
+    alt: "Udemy Python Certificado",
+    image: "https://raw.githubusercontent.com/IWuYhong/portafolio_richard/refs/heads/main/images/python_udemy.webp",
+    description: "Certificación de Udemy - Python TOTAL - Programador Avanzado en 16 días",
+    title: "Udemy - Python Advanced",
   }
+  
+
 ]
 
 const skills = ["React", "Docker", "Vue", "Astro", "TypeScript", "Flask", "Node.js", "Javascript", "SQL", "CSS", "HTML", "Python", "Git", "Github", "Tailwind CSS", "Wordpress", "Figma", "Elementor", "Illustrator", "PhotoShop", "Adobe Premiere", "Excel Avanzado", "Premiere Pro", "After effects", "Davinci Resolve"]
